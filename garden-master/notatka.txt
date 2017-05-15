@@ -1,0 +1,26 @@
+<header class="contener floatfix"> - HTML
+
+.floatfix: after {
+	content:''; ----> regu³a w CSS
+	display:block; 
+	clear:both;
+}                                     -----> CSS
+
+.contener {
+	width:80%;
+	max-width:1100px;   
+	margin: 0 auto;
+}
+
+
+
+media queries
+dostosowuje rozdzielczoœc na innych urzadzeniach mobilnych
+bazuje na jednosktkach relatywnych - % procenty
+odwo³ujemy siê do "screen" 
+oraz do max szerokoœc ekrany
+Dwie metody dodawania arkuszy 
+I metoda : podlinkowanie arkusza
+<link rel="stylesheet" media="screen (max-width: 800px)" href="css/max-800.css">
+
+II metoda: za³¹cznie regu³y zaczynaj¹cej siê od @media

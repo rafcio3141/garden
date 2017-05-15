@@ -1,0 +1,195 @@
+body {
+	background-color:#fff;
+	font-family: 'Roberto', sans-serif;
+	font-size:62,5%;
+}
+
+img {
+	max-width:100%;
+	
+}
+.floatfix:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.contener {
+	width:80%;
+	max-width:1100px;
+	margin: 0 auto;
+}
+
+header h1 {
+	float:left;
+	width:35%;
+	min-width:200px;
+}
+
+header h1 a {
+	display:block;
+	width:200px;
+	height:60px;
+	margin:5px 0;
+	text-indent:-999em;
+	background: URL("../images/logo.png") top left no-repeat;
+}
+
+header nav {
+	float: right;
+	width:65%;
+	
+	
+}
+header nav ul {
+	display:table;
+	width:100%;
+}
+header nav ul li {
+	display: table-cell;
+		
+}
+header nav ul li a {
+	display:block;
+	width:;
+	height:70px;
+	line-height:70px;
+	font-size: 1.5em;
+	color: #7cb029;
+	text-transform: uppercase;
+	text-align:center;
+	text-decoration:none;
+	}
+	
+header nav ul li a:hover{
+	background: #7cb029;
+	color:#fff;
+}
+
+.slogan-bg {
+	height:442px;
+	width:100%;
+	background:URL(../images/slogan-bg.jpg) top center no-repeat;
+	background-size:cover;
+	overflow:hidden;
+	border-top:4px solid #7cb029;
+	border-bottom:4px solid #7cb029;
+}
+.slogan {
+	text-align:center;
+	padding-top:180px;
+	font-family:'Impact', sans-serif;
+	font-size:3.5em;
+	line-height:1.5em;
+
+}
+
+.slogan h1 {
+	color:#393b38;
+	display:inline;
+	padding:5px 15px;
+	background: rgba(255, 255, 255, 0.8);
+}
+.slogan h2 {
+	color:#fff;
+	display:inline;
+	padding:5px 15px;
+	background: rgba(124, 176, 41, 0.8);
+}
+
+/*--------OFERTA------------------------*/
+section.contener h1 {
+	color:#7cb029;
+	font-size:2em;
+	text-transform:uppercase;
+	margin-top:10px;
+}
+
+.box {
+	width:29.333%;
+	float:left;
+	margin: 2%;
+}
+
+
+/*---------MENU SWITCH------------------*/
+.switch {
+	display: none;
+	background:#7cb029;
+	color: #fff;
+	padding: 10px 15px;
+	float: right;
+	font-size: 1.4em;
+	text-decoration:none;
+	
+}
+
+/*---------MAX-WIDTH 1024---------------*/
+@media screen and (max-width: 1024px) {
+.contener {
+	width: 90%;
+		}
+}
+
+/*---------MAX-WIDTH 768---------------*/
+@media screen and (max-width: 768px) {
+.contener {
+	width: 95%;
+		}
+header nav {
+	width:100%;
+}
+}
+
+/*---------MAX-WIDTH 480---------------*/
+@media screen and (max-width: 480px) {
+	.contener {
+	width: 100%;
+		}
+header nav ul li {
+	display:block;
+	width:100%;
+}
+header nav ul li a {
+	height:40px;
+	line-height:40px;
+	border-bottom: 1px solid #7cb029;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
